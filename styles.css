@@ -1,0 +1,40 @@
+* {
+    text-align: center;
+    color: #ffff;
+    margin: 0;
+
+}
+
+.header {
+    width: 550px;
+    height: 260px;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    margin: 0 auto;
+
+}
+
+
+.title {
+    padding: 53px 50px;
+}
+
+#input {
+    font-size: 100px;
+}
+
+.output {
+    margin: 0 auto;
+    background: #1F2937;
+    max-width: 550px;
+    padding-top: 20px;
+}
+
+input,
+button {
+    color: black;
+}
+
+.length--output {
+    display: flex;
+    justify-content: center;
+}
