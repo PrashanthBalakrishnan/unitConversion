@@ -2,15 +2,21 @@
     text-align: center;
     color: #ffff;
     margin: 0;
+    max-width: 100vh;
+    max-height: 100vh;
+
+}
+
+.cotainer {
+    padding: 10px;
+
 
 }
 
 .header {
-    width: 550px;
-    height: 260px;
     background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
     margin: 0 auto;
-
+    padding-bottom: 20px;
 }
 
 
@@ -23,10 +29,10 @@
 }
 
 .output {
-    margin: 0 auto;
     background: #1F2937;
-    max-width: 550px;
     padding-top: 20px;
+    height: 100vh;
+
 }
 
 input,
@@ -37,4 +43,10 @@ button {
 .length--output {
     display: flex;
     justify-content: center;
+}
+
+.entryfeild {
+    padding: 20px 40px;
+    margin-top: 20px;
+
 }
